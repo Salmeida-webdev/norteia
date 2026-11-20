@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
   <meta name="theme-color" content="#101a16">
   <meta name="description" content="Norteia reúne a gestão jurídica em uma visão conectada de clientes, casos, prazos e operação.">
   <title>Norteia — Gestão jurídica</title>
   <link rel="icon" href="/norteia-monograma.png" type="image/png">
   <link rel="stylesheet" href="/styles.css">
-  <link rel="stylesheet" href="/refinements.css">
+  <link rel="stylesheet" href="/refinements.css?v=20261120-visual-refresh">
 </head>
 <body class="app-page">
   <aside class="sidebar" id="sidebar">
@@ -27,6 +28,6 @@
   <div class="toast-region" id="toast-region" aria-live="polite"></div>
   <dialog class="modal" id="action-modal"><form method="dialog" class="modal-card"><button class="modal-close" aria-label="Fechar">×</button><span class="section-kicker" id="modal-kicker">NOVO REGISTRO</span><h2 id="modal-title">Novo registro</h2><p id="modal-copy">Prévia do fluxo de trabalho.</p><label id="modal-field-label" for="modal-input">Título</label><input id="modal-input" placeholder="Ex.: Revisar documentação" autocomplete="off"><div class="modal-actions"><button class="button button-outline" value="cancel">Cancelar</button><button class="button button-gold" value="default" id="modal-confirm">Adicionar nesta sessão</button></div></form></dialog>
   <dialog class="search-dialog" id="search-dialog"><form method="dialog"><label for="global-search">Buscar no painel</label><input id="global-search" placeholder="Clientes, processos, prazos…" autocomplete="off"><button class="modal-close" aria-label="Fechar">×</button><p>Busca entre os itens disponíveis nesta página.</p></form></dialog>
-  <script src="/demo.js" defer></script>
+  <script src="/demo.js?v=20261120-visual-refresh" defer></script>
 </body>
 </html>

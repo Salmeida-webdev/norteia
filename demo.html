@@ -4,29 +4,29 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101a16">
-  <meta name="description" content="Demonstração interativa do painel Norteia de gestão jurídica.">
-  <title>Painel demonstrativo — Norteia</title>
+  <meta name="description" content="Norteia reúne a gestão jurídica em uma visão conectada de clientes, casos, prazos e operação.">
+  <title>Norteia — Gestão jurídica</title>
   <link rel="icon" href="/norteia-monograma.png" type="image/png">
   <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/refinements.css">
 </head>
 <body class="app-page">
   <aside class="sidebar" id="sidebar">
     <a class="brand app-brand" href="/"><img src="/norteia-monograma.png" alt="" class="brand-mark"><span class="brand-word">NORTEIA<span>GESTÃO JURÍDICA</span></span></a>
-    <div class="workspace-switch"><span class="workspace-avatar">A</span><span><b>Almeida & Torres</b><small>Escritório demonstrativo</small></span><span class="switch-chevron">⌄</span></div>
+    <div class="workspace-switch"><span class="workspace-avatar">A</span><span><b>Almeida & Torres</b><small>Escritório jurídico</small></span><span class="switch-chevron">⌄</span></div>
     <div class="sidebar-label">ESCRITÓRIO</div>
     <nav class="app-nav" id="app-nav" aria-label="Módulos do escritório"></nav>
-    <div class="sidebar-bottom"><a href="/?from=demo" class="back-site"><span>↖</span> Página da Norteia</a><div class="user-card"><div class="user-avatar">HM</div><span><b>Helena Martins</b><small>Advogada · demonstração</small></span><button aria-label="Opções do perfil">···</button></div></div>
+    <div class="sidebar-bottom"><a href="/" class="back-site"><span>↖</span> Página da Norteia</a><div class="user-card"><div class="user-avatar">HM</div><span><b>Helena Martins</b><small>Advogada</small></span><button aria-label="Opções do perfil">···</button></div></div>
   </aside>
 
   <main class="app-main">
     <header class="app-topbar"><button class="mobile-menu app-mobile-menu" aria-label="Abrir menu" aria-expanded="false">☰</button><div class="breadcrumbs"><span>Escritório</span><b>/</b><strong id="current-crumb">Visão geral</strong></div><div class="top-actions"><button class="icon-button" aria-label="Pesquisar" id="search-open">⌕</button><button class="icon-button notification-button" aria-label="Notificações">♧<i></i></button><span class="top-divider"></span><span class="top-date">Qui, 20 nov 2026</span></div></header>
-    <div class="demo-ribbon"><span class="demo-pip"></span><span>AMBIENTE DE DEMONSTRAÇÃO</span><span class="demo-ribbon-copy">Dados fictícios · não insira informações reais ou confidenciais</span></div>
     <section class="app-content" id="app-content" tabindex="-1"></section>
-    <footer class="app-footer"><span>Prévia interativa da Norteia</span><span>Dados fictícios para demonstração · ações não são salvas em servidor</span><a href="/privacidade/">Privacidade</a></footer>
+    <footer class="app-footer"><span class="app-footnote">Nota: nomes, valores e registros são ilustrativos. Não insira informações reais ou confidenciais; as ações não são persistidas.</span><a href="/privacidade/">Privacidade</a></footer>
   </main>
   <div class="toast-region" id="toast-region" aria-live="polite"></div>
-  <dialog class="modal" id="action-modal"><form method="dialog" class="modal-card"><button class="modal-close" aria-label="Fechar">×</button><span class="section-kicker" id="modal-kicker">AÇÃO DEMONSTRATIVA</span><h2 id="modal-title">Novo registro</h2><p id="modal-copy">Prévia do fluxo de trabalho.</p><label id="modal-field-label" for="modal-input">Título</label><input id="modal-input" placeholder="Ex.: Revisar documentação" autocomplete="off"><div class="modal-actions"><button class="button button-outline" value="cancel">Cancelar</button><button class="button button-gold" value="default" id="modal-confirm">Adicionar à demonstração</button></div></form></dialog>
-  <dialog class="search-dialog" id="search-dialog"><form method="dialog"><label for="global-search">Buscar no painel</label><input id="global-search" placeholder="Clientes, processos, prazos…" autocomplete="off"><button class="modal-close" aria-label="Fechar">×</button><p>Pesquisa demonstrativa entre os itens desta tela.</p></form></dialog>
+  <dialog class="modal" id="action-modal"><form method="dialog" class="modal-card"><button class="modal-close" aria-label="Fechar">×</button><span class="section-kicker" id="modal-kicker">NOVO REGISTRO</span><h2 id="modal-title">Novo registro</h2><p id="modal-copy">Prévia do fluxo de trabalho.</p><label id="modal-field-label" for="modal-input">Título</label><input id="modal-input" placeholder="Ex.: Revisar documentação" autocomplete="off"><div class="modal-actions"><button class="button button-outline" value="cancel">Cancelar</button><button class="button button-gold" value="default" id="modal-confirm">Adicionar nesta sessão</button></div></form></dialog>
+  <dialog class="search-dialog" id="search-dialog"><form method="dialog"><label for="global-search">Buscar no painel</label><input id="global-search" placeholder="Clientes, processos, prazos…" autocomplete="off"><button class="modal-close" aria-label="Fechar">×</button><p>Busca entre os itens disponíveis nesta página.</p></form></dialog>
   <script src="/demo.js" defer></script>
 </body>
 </html>

@@ -10,7 +10,7 @@ svg{display:block}
 .hero-shell{max-width:1440px;min-height:760px;padding:75px clamp(24px,5vw,76px) 0;background:radial-gradient(ellipse at 76% 46%,#bd9c4c1c,transparent 41%),radial-gradient(ellipse at 9% 100%,#1b392832,transparent 38%)}
 .hero-copy{max-width:500px;width:42%;padding-top:83px}
 .eyebrow{font-size:9px;letter-spacing:.2em}
-.hero-copy h1{font-size:clamp(44px,4.25vw,60px);line-height:1.06;letter-spacing:-.04em;max-width:500px;margin:24px 0 22px}
+.hero-copy h1{font-size:clamp(44px,3.9vw,56px);line-height:1.06;letter-spacing:-.04em;max-width:500px;margin:24px 0 22px}
 .hero-copy h1 em,.intro-grid h2 em,.modules-heading h2 em,.security-copy h2 em,.closing-section h2 em,.journey-heading h2 em{color:var(--gold-bright);font-style:normal}
 .hero-lead{font-size:15px;line-height:1.85;max-width:470px;color:#b9c1b8}
 .hero-actions{margin-top:30px;gap:24px}
